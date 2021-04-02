@@ -29,6 +29,7 @@ uint8_t initializedTarget = false;
 uint8_t targetThreshold = 0;
 uint8_t currentTableMovement = 0;
 
+// D2 is the LIN input, as by Library (hardcoded)
 
 const int moveTableUpPin = PD4;
 const int moveTableDownPin = PD7;
